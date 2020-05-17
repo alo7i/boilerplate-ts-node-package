@@ -1,0 +1,23 @@
+{
+  "name": "@alo7i/boilerplate-ts-node-package",
+  "version": "1.0.0",
+  "description": "Typescript node package.",
+  "homepage": "https://github.com/alo7i/boilerplate-ts-node-package",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
+  },
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
+}
