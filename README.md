@@ -1,2 +1,2 @@
 # boilerplate-ts-node-package
-> Typescript node package.
+> boilerplate-ts-node-package-description
