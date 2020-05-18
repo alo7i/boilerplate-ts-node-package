@@ -10,3 +10,5 @@ gulpfile.js
 
 .editorconfig
 .prettierrc
+.eslintrc.js
+tsconfig.json
